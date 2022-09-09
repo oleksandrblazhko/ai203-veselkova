@@ -21,11 +21,12 @@
            <td></td>
         </tr>
          <tr>
+           <td>Eat https://otdushi.com.ua/</td>
+           <td>4</td>
            <td></td>
-           <td>~</td>
-           <td>Незрозуміла</td>
-           <td>~</td>
-           <td>~</td>
+           <td></td>
+           <td></td>
+            <td></td>
         </tr>
          <tr>
            <td>Особиста безбека</td>
