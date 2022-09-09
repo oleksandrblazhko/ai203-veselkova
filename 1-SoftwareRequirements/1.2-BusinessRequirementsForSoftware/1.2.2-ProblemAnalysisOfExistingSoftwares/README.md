@@ -32,14 +32,14 @@
            <td>Love is https://coffeeok.com.ua/</td>
            <td></td>
            <td></td>
-           <td></td>
+           <td>6</td>
            <td>Free</td>
            <td></td> 
         </tr>
          <tr>
            <td>Flashlight shocker https://www.poochem.com/</td>
            <td></td>
-           <td></td>
+           <td>2</td>
            <td></td>
            <td>Free</td>
            <td></td>
