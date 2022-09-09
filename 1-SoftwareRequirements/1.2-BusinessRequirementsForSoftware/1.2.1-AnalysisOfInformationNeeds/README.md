@@ -12,30 +12,30 @@
     </thead>
         <tr>
            <td>Їжа</td>
-           <td></td>
-           <td></td>
+           <td>~</td>
+           <td>~</td>
            <td>Важливо</td>
-           <td></td>
+           <td>~</td>
         </tr>
          <tr>
            <td>Любов</td>
-           <td></td>
+           <td>~</td>
            <td>Незрозуміла</td>
-           <td></td>
-           <td></td>
+           <td>~</td>
+           <td>~</td>
         </tr>
          <tr>
            <td>Особиста безбека</td>
-           <td></td>
-           <td></td>
-           <td></td>
+           <td>~</td>
+           <td>~</td>
+           <td>~</td>
            <td>Актуальна</td>
         </tr>
          <tr>
            <td>Зацікавленість танцями</td>
            <td>Доступна</td>
-           <td></td>
-           <td></td>
-           <td></td>
+           <td>~</td>
+           <td>~</td>
+           <td>~</td>
         </tr>
         
