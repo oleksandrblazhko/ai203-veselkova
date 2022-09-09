@@ -25,21 +25,23 @@
            <td>4</td>
            <td></td>
            <td></td>
+           <td>Free</td>
            <td></td>
-            <td></td>
         </tr>
          <tr>
-           <td>Особиста безбека</td>
-           <td>~</td>
-           <td>~</td>
-           <td>~</td>
-           <td>Актуальна</td>
+           <td>Love is https://coffeeok.com.ua/</td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td>Free</td>
+           <td></td> 
         </tr>
          <tr>
-           <td>Зацікавленість танцями</td>
-           <td>Доступна</td>
-           <td>~</td>
-           <td>~</td>
-           <td>~</td>
+           <td>Flashlight shocker https://www.poochem.com/</td>
+           <td></td>
+           <td></td>
+           <td></td>
+           <td>Free</td>
+           <td></td>
         </tr>
         
