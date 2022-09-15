@@ -22,7 +22,7 @@
         </tr>
          <tr>
            <td>Dance the Rumba — условно-бесплатное мобильное приложение для танцев https://musbooking.com/mobile-app-dance-the-rumba</td>
-           <td>4</td>
+           <td>1</td>
            <td></td>
            <td></td>
            <td>Proprietary</td>
@@ -32,14 +32,14 @@
            <td>Один из моих фаворитов — приложение Moonly https://moon.ly/</td>
            <td></td>
            <td></td>
-           <td>6</td>
+           <td>1</td>
            <td>Free</td>
            <td></td> 
         </tr>
          <tr>
            <td>bSafe – это мобильное приложение (Android и iOS) для обеспечения личной безопасности https://www.getbsafe.com/</td>
            <td></td>
-           <td>2</td>
+           <td>4</td>
            <td></td>
            <td>Free</td>
            <td></td>
