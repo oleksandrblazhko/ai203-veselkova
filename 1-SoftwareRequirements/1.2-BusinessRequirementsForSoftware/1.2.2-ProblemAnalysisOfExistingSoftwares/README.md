@@ -16,7 +16,7 @@
            <td>Продукт/пошукові фрази</td>
            <td>Food</td>
            <td>Аmour</td>
-           <td>personal safety</td>
+           <td>Personal safety</td>
            <td></td>
            <td></td>
         </tr>
