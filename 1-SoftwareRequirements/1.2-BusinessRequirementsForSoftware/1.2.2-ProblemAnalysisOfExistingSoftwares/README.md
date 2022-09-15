@@ -14,8 +14,8 @@
     </thead>
         <tr>
            <td>Продукт/пошукові фрази</td>
-           <td>Еat</td>
-           <td>Love</td>
+           <td>Food</td>
+           <td>Аmour</td>
            <td>personal safety</td>
            <td></td>
            <td></td>
