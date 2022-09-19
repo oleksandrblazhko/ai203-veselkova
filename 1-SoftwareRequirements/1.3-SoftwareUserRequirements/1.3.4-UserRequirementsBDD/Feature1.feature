@@ -1,4 +1,4 @@
-Feature: Failed exercise in Online training.
-As a manager
-In order to monitor the performance of exercises.
-I want to open other exercises only after the completed exercise.
+Feature: Create an order.
+As a consumer
+In order to learn to dance
+I want to receive individual dance training.
