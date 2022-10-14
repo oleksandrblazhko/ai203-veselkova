@@ -8,3 +8,4 @@
 |||Choreographers|dive: Recommendations|
 |FR1.3|Хореограф-користувач виконує замовлення|Choreographers|fulfill: Orders|
 |||Dancars|pay: Orders|
+|||Choreographers|changeSalary()|
