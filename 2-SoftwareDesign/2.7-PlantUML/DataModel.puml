@@ -1,7 +1,6 @@
-@startuml
 title Relation Schema
 hide circle
-entity "Choreographer" as emp {
+entity "Choreographer" as chor {
   (PK)choreographer_id
   --
   education
@@ -12,7 +11,7 @@ entity "Choreographer" as emp {
   (FK)user_id
 }
 
-entity "Recommendation" as wf {
+entity "Recommendation" as recom {
   (PK)recommendation_id
   --
   meditation
@@ -20,13 +19,13 @@ entity "Recommendation" as wf {
   (FK)data_id
 }
 
-entity "Data" as exnt {
+entity "Data" as dat {
   (PK)data_id
   --
   type_of_dance
 }
 
-entity "User" as ow {
+entity "User" as us {
   (PK)user_id
   --
   surname
@@ -34,9 +33,9 @@ entity "User" as ow {
   email_adress
 }
 
-wf --{ emp
-exnt --{ wf
-emp }-- ow
+recom --{ chor
+dat --{ recom
+chor }-- us
 
 @enduml
 
