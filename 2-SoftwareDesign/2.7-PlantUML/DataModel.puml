@@ -1,3 +1,4 @@
+@startuml
 title Relation Schema
 hide circle
 entity "Choreographer" as chor {
@@ -38,4 +39,3 @@ dat --{ recom
 chor }-- us
 
 @enduml
-
