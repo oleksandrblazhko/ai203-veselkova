@@ -1,1 +1,42 @@
+@startuml
+title Relation Schema
+hide circle
+entity "Choreographer" as emp {
+  (PK)choreographer_id
+  --
+  education
+  work_experience
+  salary
+  (FK)recommendation_id
+  (FK)data_id
+  (FK)user_id
+}
+
+entity "Recommendation" as wf {
+  (PK)recommendation_id
+  --
+  meditation
+  proper nutrition
+  (FK)data_id
+}
+
+entity "Data" as exnt {
+  (PK)data_id
+  --
+  type_of_dance
+}
+
+entity "User" as ow {
+  (PK)user_id
+  --
+  surname
+  name
+  email_adress
+}
+
+wf --{ emp
+exnt --{ wf
+emp }-- ow
+
+@enduml
 
