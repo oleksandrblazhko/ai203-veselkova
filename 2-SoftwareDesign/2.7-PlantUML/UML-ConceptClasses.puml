@@ -1,0 +1,14 @@
+@startuml
+title Classes Diagram
+
+Class User
+Class Choreographer
+Class Data
+Class Recommendation
+
+Choreographer <|-- User
+Choreographer"1" -up-> "+"Recommendation : give
+Choreographer"1" -up-> "+"Data : analyze
+Recommendation"+" o-- "1"Data
+@enduml
+
