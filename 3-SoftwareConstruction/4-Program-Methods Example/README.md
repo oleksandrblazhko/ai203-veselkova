@@ -30,6 +30,7 @@ CREATE OR REPLACE TYPE BODY Datas AS
         RETURN;
     END Datas;
     
+    
         /* Процедура додавання значень атрибутів */
 	      MEMBER PROCEDURE sendDatas(p_data_id NUMBER, p_type_of_dance VARCHAR)
 	      IS
