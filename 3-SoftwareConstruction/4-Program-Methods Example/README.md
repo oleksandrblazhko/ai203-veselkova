@@ -1,6 +1,6 @@
-/* Методи класу Datas */
--- DROP TYPE Datas FORCE;
-CREATE OR REPLACE TYPE BODY Datas AS 
+	/* Методи класу Datas */
+	-- DROP TYPE Datas FORCE;
+	CREATE OR REPLACE TYPE BODY Datas AS 
     /* конструктор екземплярів об'єктів класів.
     Вхідні параметри:
 	   1) p_type_of_dance - типи танців
@@ -9,7 +9,7 @@ CREATE OR REPLACE TYPE BODY Datas AS
 	   інакше в таблиці Datas створюється новий рядок з одночасним
 	   створюється екземпляр класу 
 	  Вихідний параметр - екземпляр обєкту класу */
-    CONSTRUCTOR FUNCTION Datas(p_type_of_dance DATE) 
+    CONSTRUCTOR FUNCTION Datas(p_type_of_dance VARCHAR) 
         RETURN SELF AS RESULT
     IS
         v_data_id Datas.data_id%TYPE;
@@ -28,7 +28,7 @@ CREATE OR REPLACE TYPE BODY Datas AS
         SELF.data_id := v_data_id;
         SELF.type_of_dance := p_type_of_dance;
         RETURN;
-    END Datas;
+    	END Datas;
     
     
         /* Процедура додавання значень атрибутів */
@@ -65,5 +65,5 @@ CREATE OR REPLACE TYPE BODY Datas AS
           dbms_output.put_line('type_of_dance: ' || type_of_dance);
           dbms_output.put_line('type_of_dance: ' || type_of_dance);
         END display;
-END; 
-/
+	END; 
+	/
