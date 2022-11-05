@@ -30,7 +30,7 @@ DECLARE
 BEGIN
     dt1:= Datas (3, HipHop , 3);
     rec1:= Recommendations(1, Мотивація досягненням, Палеодиета, dt1);
-    chr:= Choreographers(3, Вища освіта, 14, 12000, 2, rec1, dt1);
+    chr1:= Choreographers(3, Вища освіта, 14, 12000, 2, rec1, dt1);
     chr1.display(); 
 END;
 /
