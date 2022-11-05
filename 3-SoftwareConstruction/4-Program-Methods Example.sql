@@ -32,11 +32,11 @@
     
     
         /* Процедура додавання значень атрибутів */
-	      MEMBER PROCEDURE sendDatas(p_data_id NUMBER, p_type_of_dance VARCHAR)
+	      MEMBER PROCEDURE sendDatas(p_data_id NUMBER, p_type_of_dance VARCHAR, p_dancer_id NUMBER)
 	      IS
 	      BEGIN
         UPDATE Datas SET type_of_dance = p_type_of_dance
-		      WHERE data_id = p_data_id;
+		      WHERE data_id = p_data_id, dancer_id = p_dancer_id;
 		      SELF.type_of_dance := p_type_of_dance;
 	      END sendDatas;
     
@@ -63,7 +63,7 @@
         BEGIN 
           dbms_output.put_line('data_id: ' || data_id;);
           dbms_output.put_line('type_of_dance: ' || type_of_dance);
-          dbms_output.put_line('type_of_dance: ' || type_of_dance);
+          dbms_output.put_line('dancer_id: ' || dancer_id);
         END display;
 	END; 
 	/
