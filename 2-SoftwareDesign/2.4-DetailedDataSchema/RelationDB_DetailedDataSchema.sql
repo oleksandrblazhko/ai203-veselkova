@@ -11,7 +11,7 @@ CREATE TABLE Users ( -- опис співробітників
 	user_id NUMBER(10), -- N співробітника
 	surname VARCHAR(20), -- прізвище співробітника
 	name VARCHAR(20), -- ім'я співробітника
-	email_address NUMBER(4), -- N email адреси співробітника
+	email_address VARCHAR(20) -- N email адреси співробітника
 );
 
 -- обмеження первинного ключа
